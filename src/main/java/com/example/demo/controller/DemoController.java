@@ -9,4 +9,8 @@ public class DemoController {
     public String getHello() {
         return "Hello World!";
     }
+    @GetMapping("/xandarstatus")
+    public String getXandarStatus() {
+        return "Xandar Sensor is working well";
+    }
 }

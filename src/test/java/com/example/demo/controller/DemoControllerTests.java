@@ -14,4 +14,8 @@ public class DemoControllerTests {
     void testGetHello() {
        assertEquals("Hello World!", demoController.getHello());
     }
+    @Test
+    void testGetXandarStatus() {
+        assertEquals("Xandar Sensor is working well", demoController.getXandarStatus());
+    }
 }
