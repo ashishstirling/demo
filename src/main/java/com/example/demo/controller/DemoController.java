@@ -11,6 +11,6 @@ public class DemoController {
     }
     @GetMapping("/xandarstatus")
     public String getXandarStatus() {
-        return "Xandar Sensor is working well";
+        return "Xandar Sensor is functioning well";
     }
 }
