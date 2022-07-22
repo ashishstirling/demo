@@ -16,6 +16,6 @@ public class DemoControllerTests {
     }
     @Test
     void testGetXandarStatus() {
-        assertEquals("Xandar Sensor is working well", demoController.getXandarStatus());
+        assertEquals("Xandar Sensor is functioning well", demoController.getXandarStatus());
     }
 }
