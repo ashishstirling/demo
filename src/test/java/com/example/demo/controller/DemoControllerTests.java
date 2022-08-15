@@ -12,6 +12,6 @@ public class DemoControllerTests {
     private DemoController demoController;
     @Test
     void testGetHello() {
-       assertEquals("Hello World!", demoController.getHello());
+       assertEquals("Hello World", demoController.getHello().getMessage());
     }
 }
