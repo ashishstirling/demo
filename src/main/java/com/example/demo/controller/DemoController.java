@@ -11,7 +11,7 @@ public class DemoController {
     @GetMapping("/hello")
     public DemoModel getHello() {
         DemoModel dm = new DemoModel();
-        dm.setMessage("Hello World!");
+        dm.setMessage("Hello World");
         return dm;
     }
 }
